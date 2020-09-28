@@ -21,7 +21,17 @@ def jjkhkh():
 @app.route('/hello/<name>')
 def hello_name(name):
     return 'Hello %s!' % name
-      
+
+@app.route('/sum')
+def sum():
+    # int a,b
+    a=6
+    b=7
+    sum =a+b
+    return str(sum)
+
+
+
 # main driver function 
 if __name__ == '__main__': 
   
