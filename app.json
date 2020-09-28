@@ -1,0 +1,13 @@
+{
+  "name": "Start on Heroku: Python Flask app by Debjyoti",
+  "description": "A barebones Python app, which can easily be deployed to Heroku.",
+  "image": "heroku/python",
+  "repository": "https://github.com/heroku/python-getting-started",
+  "keywords": ["python", "flask" ],
+  "env": {
+    "FLASK_APP" : {
+      "description": "The secret key for the Django application.",
+      "generator": "server"
+    }
+  }
+}
